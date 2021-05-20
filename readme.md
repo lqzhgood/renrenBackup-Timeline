@@ -39,10 +39,6 @@ https://github.com/whusnoopy/renrenBackup
     -   ReRes (https://chrome.google.com/webstore/detail/reres/gieocpkbblidnocefjakldecahgeeica) 按如下规则劫持
     -   http://www.renren.com/${id}/profile 打开这个链接然
 
-##### downImg
-
-`renrenBackup` 下载的图片因为 cdn 的问题有些不全, (cdn 没有图片直接返回 404,稍等回源拿到图片以后就能打开了), `config.js target` 中填写 `renrenBackup img`的绝对路径, 然后执行多次 `node index.js` 就会下载完毕 404 的图片了
-
 ### ReRes 规则
 
 导入 `Server\ReResSetting.json` 文件
@@ -72,6 +68,10 @@ module.exports = {
     ],
 };
 ```
+
+#### downImg
+
+`renrenBackup` 下载的图片因为 cdn 的问题有些不全, (cdn 没有图片直接返回 404,稍等回源拿到图片以后就能打开了), `config.js target` 中填写 `renrenBackup img`的绝对路径, 然后执行多次 `node index.js` 就会下载完毕 404 的图片了
 
 ### server list
 
