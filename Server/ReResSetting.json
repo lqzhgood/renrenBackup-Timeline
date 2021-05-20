@@ -1,0 +1,32 @@
+[
+	{
+		"req": "http://www.renren.com/timelinefeedretrieve.do",
+		"res": "http://127.0.0.1:3000/timelineMerger",
+		"checked": true
+	},
+	{
+		"req": "http://status.renren.com/feedcommentretrieve.do",
+		"res": "http://127.0.0.1:3000/feedcommentretrieve.do",
+		"checked": true
+	},
+	{
+		"req": "http://s.xnimg.cn/a90984/apps/profile2/combine/profile-v7.js",
+		"res": "http://127.0.0.1:3000/profile-v7.js",
+		"checked": true
+	},
+	{
+		"req": "http://wpi.renren.com/comet_get",
+		"res": "http://127.0.0.1:3000/404",
+		"checked": true
+	},
+	{
+		"req": "http://head.xiaonei.com/photos/http://",
+		"res": "http://",
+		"checked": true
+	},
+	{
+		"req": "http://img.xiaonei.com/photos/http://",
+		"res": "http://",
+		"checked": true
+	}
+]
