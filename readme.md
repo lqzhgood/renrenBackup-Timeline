@@ -11,6 +11,8 @@ https://github.com/whusnoopy/renrenBackup
 也就是说刚写完这个程序还未开源就已失效。。。。不过 downImg 还是可以配合 `renrenBackup` 使用的 <br />
 代码很乱 也没整理, 还是先放出来吧 <br />
 
+<hr />
+
 ### 说明
 
 主要是人人网快挂了吧,想存起来, 大部分数据可以通过 `https://github.com/whusnoopy/renrenBackup` 爬取，但是由于 `状态` 信息因为人人网关闭接口的关系无法通过 `renrenBackup` 获取。 <br /><br />
